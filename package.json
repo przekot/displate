@@ -1,0 +1,47 @@
+{
+  "name": "displate",
+  "version": "1.0.0",
+  "description": "Recruitment task",
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "check-types": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/przekot/displate.git"
+  },
+  "author": "Michał Brześciński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/przekot/displate/issues"
+  },
+  "homepage": "https://github.com/przekot/displate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "tslint": "^5.20.0",
+    "tslint-immutable": "^6.0.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
